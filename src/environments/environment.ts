@@ -1,5 +1,6 @@
 export const environment = {
   production: false,
+<<<<<<< HEAD
   apiUrl: 'http://localhost:8080/api',
   shopInfo: {
     name: 'StepStyle - Palani Shoes',
@@ -15,4 +16,7 @@ export const environment = {
     longitude: 77.5195,
     googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=10.4504,77.5195'
   }
+=======
+  apiUrl: 'http://localhost:8080/api'
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
 };

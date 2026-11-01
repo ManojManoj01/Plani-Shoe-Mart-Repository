@@ -3,11 +3,19 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
+<<<<<<< HEAD
     "analytics": "82b5cbe3-8fdc-4a31-8f34-ba46093b170e"
   },
   "newProjectRoot": "projects",
   "projects": {
     "show-shop": {
+=======
+    "analytics": "90b26876-a60c-48d6-97fd-9a128bb9b981"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "shoe-shop-admin": {
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -35,18 +43,27 @@
             },
             "ssr": {
               "entry": "src/server.ts"
+<<<<<<< HEAD
             },
             "allowedCommonJsDependencies": [
               "leaflet"
             ]
+=======
+            }
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "1.5MB",
                   "maximumError": "2.5MB"
+=======
+                  "maximumWarning": "1MB",
+                  "maximumError": "2MB"
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
                 },
                 {
                   "type": "anyComponentStyle",
@@ -54,7 +71,14 @@
                   "maximumError": "8kB"
                 }
               ],
+<<<<<<< HEAD
               "outputHashing": "all"
+=======
+              "outputHashing": "all",
+              "optimization": {
+                "fonts": false
+              }
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
             },
             "development": {
               "optimization": false,
@@ -68,6 +92,7 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "show-shop:build:production"
             },
             "development": {
@@ -75,6 +100,18 @@
             }
           },
           "defaultConfiguration": "development"
+=======
+              "buildTarget": "shoe-shop-admin:build:production"
+            },
+            "development": {
+              "buildTarget": "shoe-shop-admin:build:development"
+            }
+          },
+          "defaultConfiguration": "development",
+          "options": {
+            "port": 4201
+          }
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
         },
         "test": {
           "builder": "@angular/build:unit-test"

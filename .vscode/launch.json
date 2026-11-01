@@ -7,7 +7,11 @@
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
+<<<<<<< HEAD
       "url": "http://localhost:4200/"
+=======
+      "url": "http://localhost:4201/"
+>>>>>>> 4612e5dfee97dff303e5e71abbdf1dcb739d2fe1
     },
     {
       "name": "ng test",
